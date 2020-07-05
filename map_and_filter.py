@@ -19,7 +19,7 @@ filtered_logins = list(filter(lambda login: str(login).lower() == 'admin', login
 admin = filtered_logins[0] if len(filtered_logins) > 0 else None    # conditional expression
 print(admin)
 
-# FILTERING: new iterable = function + old iterable
+# FILTERING: new iterable = predicate + old iterable
 
 
 
